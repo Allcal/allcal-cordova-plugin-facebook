@@ -1,9 +1,9 @@
 {
-  "name": "cordova-plugin-facebook4",
-  "version": "1.8.0",
-  "description": "Cordova Facebook SDK 4 Plugin",
+  "name": "allcal-cordova-plugin-facebook",
+  "version": "1.8.1",
+  "description": "Customised Cordova Facebook SDK 4 Plugin",
   "cordova": {
-    "id": "cordova-plugin-facebook4",
+    "id": "allcal-cordova-plugin-facebook",
     "platforms": [
       "android",
       "ios",
@@ -12,18 +12,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jeduan/cordova-plugin-facebook4"
+    "url": "https://github.com/Allcal/allcal-cordova-plugin-facebook"
   },
   "keywords": [
-    "cordova",
-    "facebook",
-    "ecosystem:cordova",
-    "cordova-android",
-    "cordova-ios",
-    "cordova-browser",
-    "facebook-sdk",
-    "social",
-    "sharing"
   ],
   "license": "Apache-2.0"
 }
