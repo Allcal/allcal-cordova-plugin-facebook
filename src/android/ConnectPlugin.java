@@ -803,8 +803,9 @@ public class ConnectPlugin extends CordovaPlugin {
             builder.setContentUrl(Uri.parse(paramBundle.get("link")));
         if (paramBundle.containsKey("picture"))
             builder.setImageUrl(Uri.parse(paramBundle.get("picture")));
-        if (paramBundle.containsKey("quote"))
-            builder.setQuote(paramBundle.get("quote"));
+        // the following statement breaks the android build with the famous "cannot find symbol" error
+        // if (paramBundle.containsKey("quote"))
+        //     builder.setQuote(paramBundle.get("quote"));
         if (paramBundle.containsKey("hashtag"))
             builder.setShareHashtag(new ShareHashtag.Builder().setHashtag(paramBundle.get("hashtag")).build());
 
